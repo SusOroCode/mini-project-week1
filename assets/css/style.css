@@ -14,10 +14,16 @@ body {
 h1,
 h2 {
     margin: 20px;
+    padding: 20px;
+    
 }
 
 main {
     padding: 60px 0;
+}
+
+figcaption {
+    margin: 50px;
 }
 
 li {
@@ -63,11 +69,15 @@ font-weight: bolder;
 img {
     display: block;
     margin: 20px auto;
+    border: #bfc3e8 25px solid;
+    box-shadow: 0 0 0 8px #9495dd,
+        0 0 0 12px #bfc3e8,
+        0 0 0 20px #3f33ac;
 }
 
 section {
     margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
+    padding: 5px 10px 40px 10px;
     border-top: 3px solid #9495dd;
     background-color: #bfc3e8;
 }
